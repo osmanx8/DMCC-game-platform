@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
-
+ 
 export const useApi = () => {
   const getUserProfile = async (address) => {
     try {
