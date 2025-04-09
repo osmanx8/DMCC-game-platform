@@ -6,7 +6,7 @@ const xssClean = require('xss-clean');
 const expressRateLimit = require('express-rate-limit');
 const hpp = require('hpp');
 const cors = require('cors');
-const logger = require('./logger');
+const logger = require('./logger'); 
 
 const configureMiddleware = (app) => {
   // Body-parser middleware  
