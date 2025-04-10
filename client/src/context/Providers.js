@@ -8,7 +8,7 @@ import GlobalStyles from '../styles/Global'
 import { BrowserRouter } from 'react-router-dom'
 import WebSocketProvider from './websocket/WebsocketProvider'
 import GameState from './game/GameState'
-
+ 
 const Providers = ({ children }) => (
   <BrowserRouter>
     <ThemeProvider theme={theme}>

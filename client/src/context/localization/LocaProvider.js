@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import LocaContext from './locaContext';
-
+ 
 const initialState = localStorage.getItem('lang') || 'en';
 
 const LocaProvider = ({ children }) => {
