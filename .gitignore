@@ -1,6 +1,5 @@
-/.vscode
-/dist
-/node_modules
-/npm-debug.log*
-/yarn-error.log
-/yarn.lock
+**/node_modules
+local.env
+production.env
+loca/~$Loca_Keys_Strings_DE_EN.xlsx
+~$WIFI-Projekt Präsentation.pptx
