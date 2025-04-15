@@ -70,7 +70,7 @@ const init = (socket, io) => {
   })
 
   socket.on(CS_LOBBY_CHAT, ({ gameId, text, userInfo }) => {
-    io.to(gameId).emit(SC_LOBBY_CHAT, {text, userInfo})
+    io.to(gameId).emit(SC_LOBBY_CHAT, {text, userInfo}) 
   })
 
   socket.on(CS_FETCH_LOBBY_INFO, ({walletAddress, socketId, gameId, username}) => {

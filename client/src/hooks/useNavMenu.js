@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 const useNavMenu = () => {
   const [showNavMenu, setShowNavMenu] = useState(false);
-
+ 
   const openNavMenu = () => {
     document.body.style.overflow = 'hidden';
     Array.from(document.getElementsByClassName('blur-target')).forEach(
