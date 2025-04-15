@@ -8,4 +8,4 @@ const config = {
       : `http://${window.location.hostname}:7777/`,
 };
 
-export default config;
+export default config; 
