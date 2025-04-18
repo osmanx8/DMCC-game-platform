@@ -5,6 +5,7 @@ const Seat = require('./Seat');
 const Deck = require('./Deck');
 const SidePot = require('./SidePot');
 
+// Table Class
 class Table {
   constructor(id, name, limit, maxPlayers = 5) {
     this.id = id;
