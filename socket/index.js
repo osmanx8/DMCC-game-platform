@@ -184,22 +184,6 @@ const init = (socket, io) => {
     broadcastToTable(table, message, from);
   });
 
-  // socket.on(CS_SIT_DOWN, ({ tableId, seatId, amount }) => {
-  //   const table = tables[tableId];
-  //   const player = players[socket.id];
-
-  //   if (player) {
-  //     table.sitPlayer(player, seatId, amount);
-  //     let message = `${player.name} sat down in Seat ${seatId}`;
-
-  //     updatePlayerBankroll(player, -amount);
-
-  //     broadcastToTable(table, message);
-  //     if (table.activePlayers().length === 2) {
-  //       initNewHand(table);
-  //     }
-  //   }
-  // });
   const sitDown =  (tableId, seatId, amount) => {
     const table = tables[tableId];
     const player = players[socket.id];
