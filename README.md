@@ -1,4 +1,4 @@
-#♠️ DMCC - Socifi MVP v2 🃏
+##♠️ DMCC - Socifi MVP v2 🃏
 Welcome to the DMCC Poker Platform – a dynamic multiplayer poker experience built for both casual and competitive players.
 
 
